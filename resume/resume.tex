@@ -5,60 +5,77 @@
 \usepackage{tgpagella}
 \usepackage[T1]{fontenc}
 
-% Education 
-\def\university{Simon Fraser University}
-\def\universitycity{Burnbaby, BC}
-\def\universitydate{2012 -- Present}
-\def\degree{Bachelor of Science in Actuarial Science}
-\def\gpa{} 
+%%% Section: Education 
 
-% Skills
+    \def\university{Simon Fraser University}
+    \def\universitycity{Burnbaby, BC}
+    \def\universitydate{2012 -- Present}
+    \def\degree{Bachelor of Science in Actuarial Science}
+    %\def\gpa{CGPA: 3.48}
+    \def\gpa{}
 
-%% Excel 
-
-\def\excel{%
-\includegraphics[scale=0.13]{excelicon} \\ \mbox{ } \mbox{ } \textbf{Excel}}
-
-\def\exceldescription{%
-\vspace{-2mm}
-\begin{itemize}
-\setlength\itemsep{-0.2em}
-\item 	Performed pension valuation a for retirement benefits project, including a gain 
-		and loss analysis
-\item	Calculated premiums for life insurance project; Used VBA and the 
-		Excel \texttt{VLOOKUP}, \texttt{INDEX} and \texttt{MATCH} functions
-\end{itemize}
-\vspace{-2mm}}
-
-%% R
-
-\def\r{%
-\includegraphics[scale=0.25]{Ricon} \\ \mbox{ } \mbox{ } \textbf{R}}
-
-\def\rdescription{%
-\vspace{-2mm}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item 	Generated economic scenarios and valued embedded options in target benefit plans for research project
-\item	Used random forest model to predict revenue earned from mobile app game for university case competition; won first prize
-\end{itemize}
-\vspace{-2mm}}
-
-%% SAS
-
-\def\sas{\medskip 
-\includegraphics[scale=0.11]{SASicon} \\ \bigskip \mbox{ } \mbox{ } \textbf{SAS}}
-
-\def\sasdescription{%
-\vspace{-2mm}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item 	Analyzed sampling methods for household surveys while on co-op at Statistics Canada; Used \texttt{BASE}, \texttt{STAT} and \texttt{SQL} procedures to stratify large data sets and select samples
-\end{itemize}
-\vspace{-2mm}}
-
-\begin{document}
-\afterpage{\cfoot{\thepage}}
+%%% Section: Skills
+   
+    %% Statistical softwares
+    
+    \def\statsoftware{%
+    \vspace{3mm} \textbf{Statistical \\ software \\} \mbox{ } \\
+    \vspace{2mm}
+    \includegraphics[scale=0.15]{Ricon} \hspace{1.5mm}
+    \includegraphics[scale=0.08]{SASicon}}
+    
+    \def\statdescription{%
+    \vspace{2mm}
+    %\begin{itemize}
+    %\setlength\itemsep{-0.4em}
+    {[\textbf{R}]} Generated economic scenarios and valued embedded
+    options in target benefit plans for research project (2015); \\
+    {[\textbf{R}]} Used random forest model to predict mobile app
+    revenue for SFU statistical case competition (2015); \\
+    {[\textbf{SAS}]} Used \texttt{BASE}, \texttt{STAT} and \texttt{SQL} 
+    procedures 
+    to stratify large data sets and select samples at 
+    Statistics Canada (2015)
+    %\end{itemize}
+    \vspace{1mm}
+    }
+    
+    %% Programming languages
+    
+    \def\proglanguage{%
+    \vspace{3mm} \textbf{Programming \\} \mbox{ } \\ \vspace{2mm}
+    \includegraphics[scale=0.04]{Visual_Studio}}
+    
+    \def\progdescription{%
+    \vspace{2mm}
+    {[\textbf{C++}]} Worked as a developer on AXIS, a life 
+    insurance software;
+    debugged and tested C++ code in Visual Studio; applied
+    techniques such as object oriented programming and
+    generic programming; used version control to merge code
+    changes
+    \vspace{1mm}
+    }
+        
+	%% Excel 
+    
+    \def\excel{%
+    \vspace{3mm} \textbf{Excel \\} \mbox{ } \\ \vspace{2mm}
+    \includegraphics[scale=0.11]{excelicon}}
+    
+    \def\exceldescription{%
+    \vspace{2mm}
+    %\begin{itemize}
+    %\setlength\itemsep{-0.2em}
+    Performed pension valuation a for retirement benefits project,
+    including a gain and loss analysis (2014); \\
+    Calculated premiums for life insurance project; Applied
+    functions such as \texttt{VLOOKUP}, \texttt{INDEX} and
+    \texttt{MATCH} as well as VBA (2014)
+    }
+    
+    \begin{document}
+    \afterpage{\cfoot{\thepage}}
 
 \large
 {\color{airforceblue}{\section{\Large{\uppercase{Education}}}}}
@@ -66,22 +83,7 @@
 \vspace{1mm}
 \begin{addmargin}[3em]{0em}
 \university, \universitycity \hfill \universitydate \\
-\textbf{\degree} \hfill \gpa \\
-\textbf{Coursework:} \vspace{-4mm}
-\end{addmargin}
-%
-\begin{addmargin}[2.75em]{0em}
-\begin{multicols}{3}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item Retirement Benefits
-\item Life Contingencies 
-\item Credibility Theory 
-\item Risk Theory
-\item Property and \\\mbox{Casualty} Insurance
-\end{itemize}
-\end{multicols} \vspace{-4mm}
-%
+\textbf{\degree} \hfill Expected Graduation: Apr 2017
 \end{addmargin}
 
 \medskip
@@ -89,43 +91,39 @@
 \rsection{Actuarial Exams}
 
 \vspace{1mm}
-%\begin{addmargin}[2.75em]{0em}
-%Exam P -- May 2014 \qquad Exam FM -- June 2014 \qquad Exam MFE -- July 2015
-%\end{addmargin}
 
 \begin{addmargin}[0.9em]{0em}
-%\begin{multicols}{1}
 \begin{itemize}
 \setlength\itemsep{-0.4em}
-\item[] Exam P \hspace{14mm} Probability \hfill May 2014 %-- May 2014
-\item[] Exam FM \hspace{10.25mm} Financial Mathematics \hfill June 2014  %-- June 2014 
-\item[] Exam MFE \hspace{7.8mm} Models for Financial Economics \hfill July 2015 %-- July 2015
+\item[] Exam MLC \hspace{7.4mm} Models for Life Contingencies \hfill May 2016
+\item[] Exam MFE \hspace{7.8mm} Models for Financial Economics \hfill Jul 2015
+\item[] Exam FM \hspace{10.25mm} Financial Mathematics \hfill Jun 2014
+\item[] Exam P \hspace{14mm} Probability \hfill May 2014
 \end{itemize}
 %\end{multicols} \vspace{-4mm}
 \end{addmargin}
-
-\medskip
-\pdfbookmark{Skills}{Skills}
-\rsection{Skills}
-
-\vspace{-3mm}
-\begin{table}[ht]
-\def\arraystretch{1.2}
-\large
-\begin{tabular}{p{0.9cm}  |p{1.9cm}|l|}
-\cline{2-3}
-& \textbf{Software} & \textbf{Application} \\ \cline{2-3}
-& \parbox{0.13\textwidth}{\excel} & \parbox{0.7575\textwidth}{\exceldescription} \\ \cline{2-3}
-& \parbox{0.13\textwidth}{\r} & \parbox{0.7575\textwidth}{\rdescription} \\ \cline{2-3}
-& \parbox{0.13\textwidth}{\sas} & \parbox{0.7575\textwidth}{\sasdescription} \\ \cline{2-3}
-\end{tabular}
-\end{table}
 
 \medskip
 \pdfbookmark{Experience}{Experience}
 \rsection{Experience}
 %
 \vspace{1mm}
+\begin{addmargin}[2.75em]{0em}
+\textbf{Actuarial Programmer}, \textit{GGY Axis (ON)}
+\hfill Jan 2016 -- Present
+\end{addmargin}
+%
+\vspace{1mm}
+\begin{addmargin}[1.75em]{0em}
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item Helped maintain AXIS, a software widely used by life insurers in Canada; collaborated with over 100 programmers by fixing bugs, re-structuring code, testing features and implementing new functionality in C++
+\item Worked alongside actuaries and actuarial students on the asset liability management team, a group which develops the AXIS \texttt{Asset} and \texttt{Reinvestment} modules
+\item Regularly presented jobs at code review meetings; examples include (1) creating a numerical integration class designed to speedup equity option pricing, and (2) cleaning up code used to solve for the yield spread of an asset
+\end{itemize}
+\end{addmargin}
+
+\vspace{2mm}
 \begin{addmargin}[2.75em]{0em}
 \textbf{Research Assistant}, \textit{Simon Fraser University (BC)} \hfill May 2015 -- Aug 2015
 \end{addmargin}
@@ -141,8 +139,7 @@
 \end{itemize}
 \end{addmargin}
 %
-
-\pagebreak
+\vspace{2mm}
 \begin{addmargin}[2.75em]{0em}
 \textbf{Methodologist}, \textit{Statistics Canada (ON)} \hfill Jan 2015 -- Apr 2015
 \end{addmargin}
@@ -158,13 +155,59 @@
 \end{itemize}
 \end{addmargin}
 
+\pagebreak
+\pdfbookmark{Skills}{Skills}
+\rsection{Skills}
+
+\vspace{-3mm}
+\begin{table}[!htpb]
+\def\arraystretch{1.3}
+\large
+\begin{tabular}{p{0.8cm} |p{2.7cm}|l|}
+\cline{2-3}
+& \textbf{Skill} & \textbf{Application} \\ \cline{2-3}
+& \parbox{0.2\textwidth}{\statsoftware} & \parbox{0.7125\textwidth}{\statdescription} \\ \cline{2-3}
+& \parbox{0.2\textwidth}{\proglanguage} & 
+\parbox{0.7125\textwidth}{\progdescription} \\ \cline{2-3}
+& \parbox{0.2\textwidth}{\excel} & \parbox{0.7125\textwidth}{\exceldescription} \\ \cline{2-3}
+\end{tabular}
+\end{table}
+
 \medskip
 \pdfbookmark{Project Experience}{Project Experience}
 \rsection{Project Experience}
 %
 \vspace{1mm}
 \begin{addmargin}[2.75em]{0em}
-\textbf{University Case Competition} \hfill Sept 2015
+\textbf{Munich Re Case Competition}, \textit{Munich Reinsurance (ON)} \hfill Mar 2016
+\end{addmargin}
+%
+\vspace{1mm}
+\begin{addmargin}[1.75em]{0em}
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item Provided solutions on how to manage the risk of specialty drugs coverage (i.e. high cost prescription drugs which are often covered in group insurance plans)
+\item Recommendations included mandatory generic substitution, use of a preferred pharmacy network and hedging risk with life or long term disability business lines; simulations were performed to analyze the financial impact of deductibles or excess loss reinsurance
+\end{itemize}
+\end{addmargin}
+%
+\vspace{2mm}
+\begin{addmargin}[2.75em]{0em}
+\textbf{ASNA Case Competition}, \textit{Niagara Falls (ON)} \hfill Jan 2016
+\end{addmargin}
+%
+\vspace{1mm}
+\begin{addmargin}[1.75em]{0em}
+\begin{itemize}
+\setlength\itemsep{-0.4em}
+\item Researched automobile safety features, including computerized collision avoidance, passenger side airbags and parking assistant technology; estimated loss costs and calculated return on investment for different combinations of features
+\item Gave presentation to hundreds of actuarial students and industry professionals at Actuarial Students National Association conference in Niagara Falls
+\end{itemize}
+\end{addmargin}
+
+\vspace{2mm}
+\begin{addmargin}[2.75em]{0em}
+\textbf{Statistical Case Competition}, \textit{Simon Fraser University (BC)} \hfill Sept 2015
 \end{addmargin}
 %
 \vspace{1mm}
@@ -172,70 +215,44 @@
 \begin{itemize}
 \setlength\itemsep{-0.4em}
 \item Predicted revenue for a mobile game using a random forest model in R; A gradient boosted model predicted whether players would continue playing the game; Won first place overall as well as best use of graphics and best predictions
-\item Gave group poster presentation; highlighted key features of the data set and important factors affecting the target variables
-\end{itemize}
-\end{addmargin}
-%
-\vspace{2mm}
-\begin{addmargin}[2.75em]{0em}
-\textbf{Retirement Benefits Project} \hfill Nov 2014
-\end{addmargin}
-%
-\vspace{1mm}
-\begin{addmargin}[1.75em]{0em}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item Performed hypothetical actuarial valuation for Defined Benefit Plan with 60 employees; gave a high-level presentation, explaining the solvency and going concern position of the plan
-\item Categorized and quantified gains and losses from the previous valuation
-\end{itemize}
-\end{addmargin}
-%
-\vspace{2mm}
-\begin{addmargin}[2.75em]{0em}
-\textbf{Life Contingencies Project} \hfill Apr 2014
-\end{addmargin}
-%
-\vspace{1mm}
-\begin{addmargin}[1.75em]{0em}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item Calculated premiums and policy values for a variety of life annuity products; analyzed the sensitivity of premiums with respect to the interest rate and mortality
-\item Built flexible pricing model with Excel and VBA which accounted for parameters such as the guarantee period, the retirement age and the demographic structure
+\item Presented poster at university departmental gala; highlighted key features of the data set and important factors affecting the target variables
 \end{itemize}
 \end{addmargin}
 
-\medskip
-\pdfbookmark{Volunteer Experience}{Volunteer Experience}
-\rsection{Volunteer Experience}
+%\medskip
+%\pdfbookmark{Volunteer Experience}{Volunteer Experience}
+%\rsection{Volunteer Experience}
 %
-\vspace{1mm}
-\begin{addmargin}[2.75em]{0em}
-\textbf{Food provider}, \textit{Food on the Corner} \hfill Jan 2012 -- June 2012
-\end{addmargin}
+%\vspace{1mm}
+%\begin{addmargin}[2.75em]{0em}
+%\textbf{Food provider}, \textit{Food on the Corner} \hfill Jan 2012 -- June 2012
+%\end{addmargin}
 %
-\vspace{1mm}
-\begin{addmargin}[1.75em]{0em}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item Distributed lunch time meals to the homeless in downtown Vancouver, iteracting directly on street level
-\item Delivered clothing and supplies to different shelters in the area
-\end{itemize}
-\end{addmargin}
+%\vspace{1mm}
+%\begin{addmargin}[1.75em]{0em}
+%\begin{itemize}
+%\setlength\itemsep{-0.4em}
+%\item Distributed lunch time meals to the homeless in downtown Vancouver, iteracting directly on
+%street level
+%\item Delivered clothing and supplies to different shelters in the area
+%\end{itemize}
+%\end{addmargin}
 %
-\vspace{2mm}
-\begin{addmargin}[2.75em]{0em}
-\textbf{Camp Counselor}, \textit{Rough Acres Bible Camp} \hfill Summer 2008 - 2011
-\end{addmargin}
+%\vspace{2mm}
+%\begin{addmargin}[2.75em]{0em}
+%\textbf{Camp Counselor}, \textit{Rough Acres Bible Camp} \hfill Summer 2008 - 2011
+%\end{addmargin}
 %
-\vspace{1mm}
-\begin{addmargin}[1.75em]{0em}
-\begin{itemize}
-\setlength\itemsep{-0.4em}
-\item Co-lead group activities such as field games, kayaking and archery; served as a positive role model for boys aged 8 -- 10
-\item Helped to provide a safe, comfortable and inclusive environment for campers
-\end{itemize}
-\end{addmargin}
-
+%\vspace{1mm}
+%\begin{addmargin}[1.75em]{0em}
+%\begin{itemize}
+%\setlength\itemsep{-0.4em}
+%\item Co-lead group activities such as field games, kayaking and archery; served as a positive 
+%role model for boys aged 8 -- 10
+%\item Helped to provide a safe, comfortable and inclusive environment for campers
+%\end{itemize}
+%\end{addmargin}
+%
 %\medskip
 %\pdfbookmark{Interests}{Interests}
 %\rsection{Interests}
