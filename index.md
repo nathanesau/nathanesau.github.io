@@ -1,22 +1,23 @@
-### About Me
+## About Me
 
-I @nathanesau study Actuarial Science at Simon Fraser University. I began my degree there in Fall 2012 and plan to graduate in April 2017. 
+Nathan Esau is an actuarial science student in his final semester at Simon Fraser University. He has done co-op terms at Statistics Canada, Simon Fraser University and GGY Axis. His resume can be found [here](https://raw.githubusercontent.com/nathanesau/nathanCV/master/resume.pdf).
 
-This website summarizes the various projects I've worked on, whether it be through school, case competitions, co-op placements or contributing to existing GitHub repositories. For some of these projects I can't provide many details, but for those which I have permission to do so, I've given an overview of what I did and shared relevant files.
+Repositories for Nathan's academic projects, case competitions, R packages, and software projects are listed on this page. See his [GitHub](https://github.com/nathanesau).
+
+## Projects
+
+### R packages
+
+The R packages can be installed using the ``devtools`` package, for example ``devtools::install_github("nathanesau", "m4fe")``.
+
+* [makehams](https://github.com/nathanesau/makehams) Code for SOA Exam MLC, "Models for Life Contingencies" with focus on survival models such as Makeham's Law.
+* [MSM](https://github.com/nathanesau/MSM) Code for SOA Exam MLC, "Models for Life Contingencies" with focus on multiple state models.
+* [m4fe](https://github.com/nathanesau/m4fe) Code for SOA Exam MFE, "Models for Financial Economics". On [CRAN](https://cran.r-project.org/web/packages/m4fe/index.html).
+* [lmodels](https://github.com/nathanesau/lmodels) Code for SOA Exam C, "Construction and Evaluation of Actuarial Models".
+* [StocVal](https://github.com/nathanesau/StocVal) Part of research project from Summer 2015. Risk-neutral valuation of embedded options in pension plans. Reproducing results from [SOA Research Study](https://www.soa.org/Files/Research/Projects/2013-pension-plan-embed-opt-val-excel.zip).
 
 ### Case Competitions
 
-#### [2016 Actuarial Students National Association Case Competition](https://nathanesau.github.io/Asna2016/)
-
-* This case competition had a "Property and Casualty Insurance" theme to it
-* Our team played the role of a hypothetical consulting firm "GoStats". Our client "Ontario University" was planning to replace their automobile fleet and wanted to know whether they should install safety features in their vehicles
-* To answer this question, we looked at a variety of safety features, including (but not limited to) computerized collision avoidance technology, passenger side airbags and parking assistant technology. We analyzed both the financial and non-financial of each of these safety features
-* To analyze the financial impact, we projected future losses using loss development factors and looked at the return on investment for various combinations of safety features
-* Finally, we also analyzed whether our client who self insure or use third party insurance 
-
-#### [2015 Statistical Case Competition at Simon Fraser University](https://nathanesau.github.io/ukencompetition/)
-
-* In September 2015, Simon Fraser University held a [case competition](http://people.stat.sfu.ca/~dac5/CaseStudy2015/Welcome.html) in the Department of Statistics and Actuarial Science to commemorate the 50th anniversary of Simon Fraser University
-* We were given a dataset for a [Uken](http://uken.com/) mobile app game and asked to predict how much time a player spent playing the game, how much money they spent on in-app purchases and whether they would continue to play the game a month after installing it
-* In the dataset, we had demographic information about users (i.e. country they were  from, gender, etc.) and also event information (i.e. did they complete level 1, did they send a gift to another user, etc.)
-* We used machine techniques to predict the target variables - a random forest model was used to predict how much money a player spent and how much time they spent playing the game, and a gradient boosted logistic regression model was used to predict the target variables. This was my first exposure to data science.
+* [Asna2016](https://github.com/nathanesau/Asna2016) Actuarial Students National Association 2016 Competition related to analyzing the cost effectiveness of automobile safety features.
+* [MunichReCup2016](https://github.com/nathanesau/MunichReCup2016) Munich Re Cup 2016 Competition related to analyzing insurer strategies to deal with high prescription drug costs.
+* [ukencompetition](https://githubb.com/nathanesau/ukencompetition) Simon Fraser University Statistics Department 2015 Competition related to using data science methods to predict revenue earned from in-app purchases in a mobile app game. The code is provided, but I do not have permission to release the competition dataset.
