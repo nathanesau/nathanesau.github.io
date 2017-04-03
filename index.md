@@ -15,6 +15,7 @@ The R packages can be installed using the ``devtools`` package, for example ``de
 * [m4fe](https://github.com/nathanesau/m4fe) Code for SOA Exam MFE, "Models for Financial Economics". On [CRAN](https://cran.r-project.org/web/packages/m4fe/index.html).
 * [lmodels](https://github.com/nathanesau/lmodels) Code for SOA Exam C, "Construction and Evaluation of Actuarial Models".
 * [StocVal](https://github.com/nathanesau/StocVal) Part of research project from Summer 2015. Risk-neutral valuation of embedded options in pension plans. Reproducing results from [SOA Research Study](https://www.soa.org/Files/Research/Projects/2013-pension-plan-embed-opt-val-excel.zip).
+* [stocins](https://github.com/nathanesau/stocins) Stochastic interest rate models for life insurance (for Acma 490 course in Spring 2017).
 
 ### Case Competitions
 
