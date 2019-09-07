@@ -1,0 +1,7 @@
+title: Nathan Esau
+description: GitHub page for Nathan Esau
+google_analytics: 
+show_downloads: false
+theme: jekyll-theme-architect
+gems:
+  - jekyll-mentions
