@@ -388,14 +388,8 @@ footer a:hover { color: #444; }
   #main-content h1:before, #main-content h2:before, #main-content h3:before, #main-content h4:before, #main-content h5:before, #main-content h6:before { padding-right: 0; margin-left: 0; content: none; } }
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-/***********************************************/
-/*************** HEADER ************************/
-/***********************************************/
 header { padding-top: 40px; padding-bottom: 0px; }
 
-/***********************************************/
-/*************** NAV ***************************/
-/***********************************************/
 .nav ul { list-style: none; background-color: #444; text-align: center; padding: 0; margin: 0; }
 
 .nav li { font-family: "Oswald", sans-serif; font-size: 1.2em; line-height: 40px; height: 40px; border-bottom: 1px solid #888; }
