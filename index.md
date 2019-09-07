@@ -2,8 +2,8 @@
 layout: default
 ---
 
-# About Me
+# Welcome to my site
 
-Nathan Esau is an actuarial science student in his final semester at Simon Fraser University. He has done co-op terms at Statistics Canada, Simon Fraser University and GGY Axis. His resume can be found [here](https://raw.githubusercontent.com/nathanesau/nathanCV/master/resume.pdf).
+I am a C++ developer in Toronto Area. Please feel free to look at some of the [projects](/projects) I have done.
 
-Repositories for Nathan's academic projects, case competitions, R packages, and software projects are listed on this page. See his [GitHub](https://github.com/nathanesau).
+My resume can be found [here](https://raw.githubusercontent.com/nathanesau/nathanCV/master/resume.pdf).

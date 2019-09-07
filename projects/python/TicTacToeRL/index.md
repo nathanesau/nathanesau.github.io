@@ -2,7 +2,7 @@
 layout: projects/python
 ---
 
-## TicTacToeRL
+### TicTacToeRL
 
 <a href="https://github.com/nathanesau/TicTacToeRL"><img src="../../../assets/images/github-button-blue.png" width="250"/></a>
 

@@ -1,4 +1,8 @@
-# Python
+---
+layout: project
+---
+
+## Python
 
 The packages I have worked on are listed below:
 

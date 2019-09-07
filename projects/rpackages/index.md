@@ -1,4 +1,8 @@
-# [R packages](/projects/rpackages)
+---
+layout: project
+---
+
+## [R packages](/projects/rpackages)
 
 The packages I have worked on are listed below:
 
@@ -11,5 +15,5 @@ The packages I have worked on are listed below:
 The R packages can be installed using the ``devtools`` package. For example,
 
 ```{bash}
-devtools::install_github("nathanesau", "m4fe")
+devtools::install_github("nathanesau/m4fe")
 ```
