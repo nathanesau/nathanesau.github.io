@@ -8,8 +8,19 @@ header {
   padding-bottom: 0px;
 }
 
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer {
-    text-align: center
+  text-align: center;
 }
 
 .nav ul {

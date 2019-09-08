@@ -35,4 +35,4 @@ head(createLifeTable(x=20))
 
 This matches the textbook calculations. For more information, please see the GitHub page.
 
-This page was last updatd on Sept 7, 2019.
+This page was last updated on Sept 7, 2019.
