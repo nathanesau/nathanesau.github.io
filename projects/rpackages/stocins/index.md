@@ -33,7 +33,7 @@ plot(function(t) delta.ev(t, oumodel) + 1.645 * sqrt(delta.var(t, oumodel)), 0, 
 
 This should produce the plot shown below:
 
-<img src="../../../assets/images/stocins_ou_plot.PNG" width="250"/>
+<img src="../../../assets/images/stocins_ou_plot.PNG" width="500"/>
 
 For more information on this package, please see the GitHub page.
 
