@@ -25,9 +25,9 @@ library(stocins)
 oumodel = iratemodel(list(delta0=0.1, delta=0.06, alpha=0.1, sigma=0.01), "ou")
 plot(function(t) delta.ev(t, oumodel), 0, 50, col='black', ylim=c(0,0.12),
      xlab="time", ylab="force of interest")
-plot(function(t) delta.ev(t, oumodel) - 1.645 * sqrt(delta.var(t, oumodel)), 0, 50,
+plot(function(t) delta.ev(t, oumodel) - 1.645 * sqrt(delta.var(t, oumodel)),0,50,
      add=TRUE, lty=2)
-plot(function(t) delta.ev(t, oumodel) + 1.645 * sqrt(delta.var(t, oumodel)), 0, 50,
+plot(function(t) delta.ev(t, oumodel) + 1.645 * sqrt(delta.var(t, oumodel)),0,50,
      add=TRUE, lty=2)
 ```
 

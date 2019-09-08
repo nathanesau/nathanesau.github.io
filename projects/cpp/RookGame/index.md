@@ -10,6 +10,8 @@ This project was created using C++ and Qt5. A screenshot of the game is shown be
 
 ![](https://raw.githubusercontent.com/nathanesau/RookGame/master/wiki/nameTags.PNG)
 
+Check out the [wiki](https://github.com/nathanesau/RookGame/wiki/Rules) for rules on how to play the game. Execuctable of the game is avaiable for Windows on the releases page.
+
 ### Project Info
 
 This project implemented the following:
@@ -18,5 +20,7 @@ This project implemented the following:
 * Play against computer (computer logic implemented)
 * Change game resolution (automatically re-scale app size)
 * Graphical user interface (click on cards to play, etc.)
+
+For more information about the game, please see the GitHub page.
 
 This page was last updated on Sep 7, 2019.
