@@ -6,13 +6,11 @@ layout: default
 
 A list of projects I have worked on are below:
 
-## [R projects](/projects/rpackages)
+## [C++ projects](/projects/cpp)
 
-<td><img src="../assets/images/r-logo.png" height="40" /></td>
+<td><img src="../assets/images/cpp-logo.png" height="40" /></td>
 
-<br />
-R is a free software environment for statistical computing and graphics. When I was in university, I wrote several R packages, mostly related to [actuarial science](https://en.wikipedia.org/wiki/Actuarial_science).
-Please go to the my [R packages project page](/projects/rpackages) for more info.
+C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". Please go to my <a href="/projects/cpp">C++ projects</a> page for C++ projects I have worked on.
 
 ## [Python projects](/projects/python)
 
@@ -21,11 +19,13 @@ Please go to the my [R packages project page](/projects/rpackages) for more info
 <br />
 Python is an interpreted, high-level, general-purpose programming language. I have worked on a few PyQt projects. Please go to my <a href="/projects/python">Python projects</a> page for more info.
 
-## [C++ projects](/projects/cpp)
+## [R projects](/projects/rpackages)
 
-<td><img src="../assets/images/cpp-logo.png" height="40" /></td>
+<td><img src="../assets/images/r-logo.png" height="40" /></td>
 
-C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". Please go to my <a href="/projects/cpp">C++ projects</a> page for C++ projects I have worked on.
+<br />
+R is a free software environment for statistical computing and graphics. When I was in university, I wrote several R packages, mostly related to [actuarial science](https://en.wikipedia.org/wiki/Actuarial_science).
+Please go to the my [R packages project page](/projects/rpackages) for more info.
 
 ## [Academic projects](/projects/academic-projects)
 
