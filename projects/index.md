@@ -10,7 +10,7 @@ A list of projects I have worked on are below:
 
 <!--<td><img src="../assets/images/cpp-logo.png" height="40" /></td>-->
 
-C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". Please go to my <a href="/projects/cpp">C++ projects</a> page for C++ projects I have worked on.
+C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or "C with Classes". Please go to my <a href="/projects/cpp">C++ projects</a> page for more info.
 
 ## [Python projects](/projects/python)
 
