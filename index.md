@@ -4,7 +4,7 @@ layout: default
 
 # Welcome to my site
 
-I am a C++ developer in the Toronto Area.
+I am a software developer in the Toronto Area.
 
 Please feel free to look at some of my [projects](/projects).
 
