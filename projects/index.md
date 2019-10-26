@@ -25,11 +25,11 @@ Python is an interpreted, high-level, general-purpose programming language. I ha
 
 <br />
 R is a free software environment for statistical computing and graphics. When I was in university, I wrote several R packages, mostly related to [actuarial science](https://en.wikipedia.org/wiki/Actuarial_science).
-Please go to the my [R packages project page](/projects/rpackages) for more info.
+Please go to the my [R projects page](/projects/rpackages) for more info.
 
 ## [Academic projects](/projects/academic-projects)
 
-Some of my university projects are on my academic account [github.com/nathanesau-academic](https://github.com/nathanesau-academic).
+My university projects can be found on my academic account [github.com/nathanesau-academic](https://github.com/nathanesau-academic). Please go to my [Academic projects page](/projects/academic-projects) for more info.
 
 ## [Future projects](/projects/future-projects)
 
