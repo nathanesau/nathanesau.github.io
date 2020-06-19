@@ -12,3 +12,6 @@ Topics covered:
 
 * Flask (Python web framework)
 * Building REST APIs using Python
+* AlgoExpert
+* VSCode Extensions
+* CMake
