@@ -31,6 +31,6 @@ Here is link to the resources I used for learning about building RESTful APIs us
 
 ### Related GitHub Projects/ PRs
 
-https://github.com/nathanesau-tutorials/pythonRestAPI
-https://github.com/leetcode-tools/leetcode-cli/pull/45?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwNjcxMjo0NjQ5OTg3#issuecomment-645746763
-https://github.com/LeetCode-OpenSource/vscode-leetcode/pull/573?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwMTI5MDo0NjQ5OTg3#issuecomment-645721663
+* [https://github.com/nathanesau-tutorials/pythonRestAPI](https://github.com/nathanesau-tutorials/pythonRestAPI)
+* [https://github.com/leetcode-tools/leetcode-cli/pull/45?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwNjcxMjo0NjQ5OTg3#issuecomment-645746763](https://github.com/leetcode-tools/leetcode-cli/pull/45?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwNjcxMjo0NjQ5OTg3#issuecomment-645746763])
+* [https://github.com/LeetCode-OpenSource/vscode-leetcode/pull/573?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwMTI5MDo0NjQ5OTg3#issuecomment-645721663](https://github.com/LeetCode-OpenSource/vscode-leetcode/pull/573?notification_referrer_id=MDE4Ok5vdGlmaWNhdGlvblRocmVhZDkzMzIwMTI5MDo0NjQ5OTg3#issuecomment-645721663)
