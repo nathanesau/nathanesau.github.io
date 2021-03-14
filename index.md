@@ -4,9 +4,9 @@ layout: default
 
 # Welcome to my site
 
-I am a software developer in the Toronto Area.
+I am a software engineer in the Toronto Area.
 
-Please feel free to look at some of my [projects](/projects).
+Please feel free to look at my [blog](/blog) or [projects](/projects).
 
 My resume can be found [here](https://github.com/nathanesau/ezhacks/files/6103047/Resume.-.Mar.4.2021.pdf).
 
